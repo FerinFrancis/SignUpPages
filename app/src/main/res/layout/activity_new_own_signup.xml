@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="35dp"
+    android:orientation="vertical"
+    tools:context=".NewOwnSignup">
+
+    <ImageView
+        android:id="@+id/nutellaLogo"
+        android:layout_width="136dp"
+        android:layout_height="118dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:scaleX="0.95"
+        android:scaleY="1.1"
+        app:srcCompat="@drawable/nutellalogo" />
+
+    <TextView
+        android:id="@+id/nuttCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        android:textColor="#6A6868"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="Create your Account" />
+
+    <EditText
+        android:id="@+id/nuttEmailEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edittext_focused"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/nuttPasswordEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:background="@drawable/bg_edittext_focused"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:background="@drawable/bg_edittext_focused"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nuttSignupButton"
+        android:layout_marginTop="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/nutt_signup_button"
+        android:textAllCaps="false"
+        android:text="@string/sign_up" />
+
+    <TextView
+        android:id="@+id/nuttOrSignupWith"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="55dp"
+        android:textStyle="bold"
+        android:textColor="#8F8E8E"
+        android:text="-Or sign up with-" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/nuttGoogleButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:background="@color/white"
+            android:scaleType="fitXY"
+            android:scaleX="0.3"
+            android:scaleY="1.0"
+
+            android:clipToPadding="false"
+
+            android:src="@drawable/googleicon" />
+
+        <ImageButton
+            android:id="@+id/nuttFacebookButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:background="@color/white"
+            android:layout_marginStart="12dp"
+            android:scaleType="fitXY"
+            android:scaleX="0.6"
+            android:scaleY="1.7"
+            android:src="@drawable/facebooksmalliconnew" />
+
+        <ImageButton
+            android:id="@+id/nuttTwitterButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:background="@drawable/bm"
+            android:layout_marginStart="12dp"
+            android:scaleType="fitXY"
+            android:scaleX="0.4"
+            android:elevation="100dp"
+            android:scaleY="1.1"
+            android:src="@drawable/twittericonnew" />
+    </LinearLayout>
+
+</LinearLayout>

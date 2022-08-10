@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="36dp"
+    android:orientation="vertical"
+    tools:context=".GoogleSignup">
+
+    <ImageView
+        android:id="@+id/googleLogo"
+        android:layout_width="85dp"
+        android:layout_height="30dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/googlefulllogo" />
+
+    <TextView
+        android:id="@+id/googleCreateAccountText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/create_your_google_account" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/googleFirstNameBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext_focused"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:padding="13dp"
+            android:inputType="textPersonName"
+            android:hint="First Name" />
+
+        <EditText
+            android:id="@+id/googleLastNameBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext_focused"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:padding="13dp"
+            android:layout_marginStart="7dp"
+            android:inputType="textPersonName"
+            android:hint="Last Name" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/googleUsernameBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="13dp"
+        android:background="@drawable/bg_edittext_focused"
+        android:layout_marginTop="15dp"
+        android:inputType="textPersonName"
+        android:hint="Username" />
+
+    <TextView
+        android:id="@+id/googleUseLetters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/you_can_use_letters_numbers_amp_periods" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/useCurrentEmailButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:textSize="14sp"
+        android:textColor="#0E84EC"
+        android:textAllCaps="false"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="Use my current email address instead" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/googlePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:padding="13dp"
+            android:background="@drawable/bg_edittext_focused"
+            android:inputType="textPassword"
+            android:hint="Password" />
+
+        <EditText
+            android:id="@+id/googleConfirmPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:padding="13dp"
+            android:layout_marginStart="7dp"
+            android:background="@drawable/bg_edittext_focused"
+            android:inputType="textPassword"
+            android:hint="Confirm" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/passInstruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:layout_marginTop="5dp"
+        android:text="@string/use_8_or_more_characters_with_a_mix_of_letters_numbers_symbols" />
+
+    <CheckBox
+        android:id="@+id/showPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Show Password" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textSize="14sp"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="#0E84EC"
+            android:textAllCaps="false"
+            android:text="Sign in instead" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button4"
+            android:layout_width="95dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="100dp"
+            android:background="@drawable/google_next_button"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:textColor="#F6F4F4"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

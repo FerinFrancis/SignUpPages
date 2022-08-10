@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="49dp"
+    tools:context=".InstagramSignup">
+
+    <ImageView
+        android:id="@+id/instaFont"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/instagramfont" />
+
+    <TextView
+        android:id="@+id/signupIntro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#A5A3A3"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/sign_up_to_see_photos_and_videos_from_your_friends" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginFb"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginTop="21dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="#F4F0F0"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:drawableLeft="@drawable/fblogo"
+        android:background="@drawable/loginfbbutton"
+        android:textSize="12sp"
+
+        android:text="@string/log_in_with_facebook" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="120dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="18dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/orText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="15dp"
+            android:text="OR" />
+
+        <View
+            android:layout_width="125dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="18dp"
+            android:background="@android:color/darker_gray"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/mobileOrEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textPersonName"
+        android:background="@drawable/bg_edittext"
+        android:hint="@string/mobile_number_or_email"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/nameView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:padding="12dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_edittext"
+        android:inputType="textPersonName"
+        android:hint="Full Name" />
+
+    <EditText
+        android:id="@+id/usernameView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:padding="12dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_edittext"
+        android:inputType="textPersonName"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/passwordView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="13sp"
+        android:padding="12dp"
+        android:background="@drawable/bg_edittext"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+
+    <TextView
+        android:id="@+id/learnMoreView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#A8A7A7"
+        android:layout_marginTop="16dp"
+        android:textSize="12sp"
+        android:text="@string/learn_more"/>
+
+
+    <TextView
+        android:id="@+id/privacyCookiesView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#A8A7A7"
+        android:textSize="12sp"
+        android:layout_marginTop="16dp"
+        android:text="@string/privacy_cookies" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:textAllCaps="false"
+        android:background="@drawable/signupbutton"
+        android:textStyle="bold"
+        android:textColor="#FBF9F9"
+        android:layout_marginTop="16dp"
+        android:text="@string/sign_up" />
+
+</LinearLayout>

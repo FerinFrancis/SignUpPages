@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/drawable/bg_edittext.xml" value="0.226" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/drawable/bg_edittext_focused.xml" value="0.226" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/drawable/bg_edittext_normal.xml" value="0.226" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/drawable/bm.xml" value="0.226" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/drawable/button_curve.xml" value="0.226" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/drawable/buttonshape.xml" value="0.226" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/drawable/fb_alreadyacct_button.xml" value="0.226" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/drawable/fb_signup_button.xml" value="0.226" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/drawable/first_act_button_curve.xml" value="0.226" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/drawable/gmail.xml" value="0.2595" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/drawable/google_next_button.xml" value="0.226" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/drawable/loginfbbutton.xml" value="0.226" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/drawable/nutt_google_button.xml" value="0.226" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/drawable/nutt_signup_button.xml" value="0.226" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/drawable/nuttgoogleicon.xml" value="0.226" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/drawable/nuttnameedit.xml" value="0.226" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/drawable/signupbutton.xml" value="0.2585" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/drawable/usecurrentbuttonbackground.xml" value="0.2585" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/layout/activity_facebook_signup.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/layout/activity_google_signup.xml" value="0.23127962085308057" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/layout/activity_instagram_signup.xml" value="0.264" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/layout/activity_new_own_signup.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ferin/StudioProjects/SignUpPages/app/src/main/res/layout/bg_edittext_focused.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

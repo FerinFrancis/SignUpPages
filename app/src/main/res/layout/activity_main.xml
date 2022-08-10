@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="35dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/instaSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="@drawable/first_act_button_curve"
+        android:textColor="#D81BD5"
+        android:shadowColor="#000"
+        android:textAllCaps="false"
+        android:text="Instagram Sign up" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/googleSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:background="@drawable/first_act_button_curve"
+        android:textColor="#157CD6"
+        android:shadowColor="#000"
+        android:textAllCaps="false"
+        android:text="Google Sign up" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/facebookSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:background="@drawable/first_act_button_curve"
+        android:textColor="#2F42B8"
+        android:shadowColor="#000"
+        android:textAllCaps="false"
+        android:text="Facebook Sign up" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ownNutellaSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:background="@drawable/first_act_button_curve"
+        android:textColor="#00020B"
+        android:shadowColor="#000"
+        android:textAllCaps="false"
+        android:text="Nutella Sign up" />
+</LinearLayout>
