@@ -100,7 +100,6 @@
             android:scaleX="0.3"
             android:scaleY="1.0"
 
-            android:clipToPadding="false"
 
             android:src="@drawable/googleicon" />
 
