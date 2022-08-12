@@ -4,11 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    //i am from web
 
     Button instaSign;
     Button googleSignup;
@@ -24,7 +26,9 @@ public class MainActivity extends AppCompatActivity {
         instaSign.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // Navigates from MainActivity to InstagramSignup Activity
                 Intent insta = new Intent(MainActivity.this, InstagramSignup.class);
+                // This code triggers the Intent event
                 startActivity(insta);
             }
         });
@@ -56,5 +60,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    // To create menu this method is used
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Informs the method to use main_act_menu xml file for creating menu
+        getMenuInflater().inflate(R.menu.main_act_menu,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    // This method gets executed when we click on the menu item
+    // The same method name has to be used in the Item tag inside menu xml file
+    public void aboutApp(MenuItem item) {
+        Toast.makeText(this, "This App shows Signup pages of social media apps", Toast.LENGTH_SHORT).show();
     }
 }

@@ -17,17 +17,23 @@ public class FacebookSignup extends AppCompatActivity {
         setContentView(R.layout.activity_facebook_signup);
 
         learnMore = findViewById(R.id.fbPeopleLearnMore);
-        String next = "<font color='#0000cd'>Learn more.</font>";
-        String finalSent= learnMore.getText().toString().replace("Learn more.", next);
+        String text = learnMore.getText().toString();
+        // Created a new text "Learn more." with blue colour and stored it in variable colourLearnMore
+        String colourLearnMore = "<font color='#0000cd'>Learn more.</font>";
+        // Replacing the "Learn more." words in text String with colouredLearnMore
+        // And storing the output in variable finalSent
+        String finalSent= text.replace("Learn more.", colourLearnMore);
+        // Setting the finalSent to learnMore TextView
+        // This displays selected words in blue colour in textView
         learnMore.setText(Html.fromHtml(finalSent));
 
         fbByClickingPrivacyPolicy = findViewById(R.id.fbByClickingPrivacyPolicy);
-        String nextOne =  "<font color='#000cd'>Terms, Privacy Policy</font>";
-        String finalSentTwo= fbByClickingPrivacyPolicy.getText().toString().replace("Terms, Privacy Policy",nextOne);
-        String nextTwo =  "<font color='#000cd'>Cookies Policy.</font>";
-        String finalSentThree= finalSentTwo.replace("Cookies Policy.",nextTwo);
-        fbByClickingPrivacyPolicy.setText(Html.fromHtml(finalSentThree));
-
+        String textTwo = fbByClickingPrivacyPolicy.getText().toString();
+        String colourTermsPrivacy =  "<font color='#000cd'>Terms, Privacy Policy</font>";
+        String textWithReplacedTermsPrivacy= textTwo.replace("Terms, Privacy Policy",colourTermsPrivacy);
+        String colourCookiesPolicy =  "<font color='#000cd'>Cookies Policy.</font>";
+        String finalReplacedSent= textWithReplacedTermsPrivacy.replace("Cookies Policy.",colourCookiesPolicy);
+        fbByClickingPrivacyPolicy.setText(Html.fromHtml(finalReplacedSent));
 
     }
 }

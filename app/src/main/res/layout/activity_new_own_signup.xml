@@ -81,7 +81,7 @@
         android:layout_marginTop="55dp"
         android:textStyle="bold"
         android:textColor="#8F8E8E"
-        android:text="-Or sign up with-" />
+        android:text="- Or sign up with -" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -89,46 +89,35 @@
         android:layout_marginTop="20dp"
         android:orientation="horizontal">
 
-        <ImageButton
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/nuttGoogleButton"
-            android:layout_width="50dp"
+            android:layout_width="40dp"
             android:layout_height="50dp"
             android:layout_weight="1"
-            android:padding="15dp"
-            android:background="@color/white"
+            android:scaleX="0.255"
+            android:scaleY="0.5"
+            android:background="@drawable/googleicon"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nuttFacebookButton"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:scaleX="0.5"
+            android:scaleY="0.9"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/facebooksmalliconnew" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nuttTwitterButton"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
             android:scaleType="fitXY"
             android:scaleX="0.3"
-            android:scaleY="1.0"
-
-
-            android:src="@drawable/googleicon" />
-
-        <ImageButton
-            android:id="@+id/nuttFacebookButton"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:padding="15dp"
-            android:background="@color/white"
-            android:layout_marginStart="12dp"
-            android:scaleType="fitXY"
-            android:scaleX="0.6"
-            android:scaleY="1.7"
-            android:src="@drawable/facebooksmalliconnew" />
-
-        <ImageButton
-            android:id="@+id/nuttTwitterButton"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:padding="15dp"
-            android:background="@drawable/bm"
-            android:layout_marginStart="12dp"
-            android:scaleType="fitXY"
-            android:scaleX="0.4"
-            android:elevation="100dp"
-            android:scaleY="1.1"
-            android:src="@drawable/twittericonnew" />
+            android:scaleY="0.50"
+            android:background="@drawable/twittericonnew" />
     </LinearLayout>
 
 </LinearLayout>
